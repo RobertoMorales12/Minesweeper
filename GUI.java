@@ -156,7 +156,7 @@ public class GUI extends JFrame  {
 							//array of options "yes" or "no"
 							String[] options = new String[] {"Yes", "No"};
 							//the response of the user, 0 = yes 1 = no  
-							int response = JOptionPane.showOptionDialog(this, "GAME OVER LOSER! PLAY AGAIN?", "GAME OVER",
+							int response = JOptionPane.showOptionDialog(this, "OH NO, YOU HAVE LOST! PLAY AGAIN?", "GAME OVER",
 							    JOptionPane.DEFAULT_OPTION, JOptionPane.PLAIN_MESSAGE, null, options, options[0]);
 							  
 							//if yes
